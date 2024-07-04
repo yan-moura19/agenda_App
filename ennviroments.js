@@ -1,1 +1,1 @@
-export const URL_API = 'http://localhost:3000/api/'
+export const URL_API = 'https://agendaapp-api-zca5jthe7a-uc.a.run.app/api/'
