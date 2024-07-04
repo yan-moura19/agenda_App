@@ -8,7 +8,8 @@
                     mdi-close-circle-outline
                     </v-icon>
                 </span>
-        <h1 class="text-center">Cadastrar Evento</h1>
+        <h1 v-if="!eventoSelecionado.paraEditar" class="text-center">Cadastrar Evento</h1>
+        <h1 v-else class="text-center">Editar Evento</h1>
         <br>
        
             
